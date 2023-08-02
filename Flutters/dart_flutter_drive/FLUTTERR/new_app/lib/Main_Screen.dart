@@ -91,7 +91,8 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: pages(_currentIndex),
+      body:
+      pages(_currentIndex),
       bottomNavigationBar: BottomNavigationBar(
         unselectedIconTheme: const IconThemeData(
           color: Colors.grey,

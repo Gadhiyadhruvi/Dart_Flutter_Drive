@@ -104,10 +104,6 @@ class _Q1State extends State<Q1> {
                                     ? Colors.red
                                     : Colors.indigo[900],
                                 borderRadius: BorderRadius.circular(50),
-                                // gradient: new LinearGradient(colors: [
-                                //   Color.fromARGB(255, 61, 51, 144),
-                                //   Color.fromARGB(255, 44, 28, 167),
-                                // ]),
                                 boxShadow: [
                                   new BoxShadow(
                                     color: Colors.grey,

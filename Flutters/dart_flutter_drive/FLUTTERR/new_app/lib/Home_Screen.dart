@@ -1,6 +1,7 @@
 // ignore_for_file: file_names, non_constant_identifier_names, use_build_context_synchronously, avoid_types_as_parameter_names, unrelated_type_equality_checks, avoid_print
 import 'dart:async';
 import 'dart:convert';
+import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:new_app/Model/models/cartlist/addtocart_model.dart';
 import 'package:new_app/Model/models/cartlist/home_count_model.dart';
@@ -252,7 +253,7 @@ class _HomePageState extends State<HomePage> {
       ),
       body: _isLoading ? const Center(child: CircularProgressIndicator(),) :
       SingleChildScrollView(
-        physics: const BouncingScrollPhysics(),
+        physics: const AlwaysScrollableScrollPhysics(),
         scrollDirection: Axis.vertical,
         child: Column(
           children: [

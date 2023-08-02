@@ -39,7 +39,7 @@ class _Quiz_PageState extends State<Quiz_Page> {
           },
           onAdFailedToLoad: (ad, error) {},
         ),
-        request: AdRequest());
+        request: const AdRequest());
 
     _bannerAd.load();
   }
@@ -54,7 +54,7 @@ class _Quiz_PageState extends State<Quiz_Page> {
           child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Text(
+          const Text(
             'You have pushed the button this many times:',
           ),
           Text(
@@ -65,7 +65,7 @@ class _Quiz_PageState extends State<Quiz_Page> {
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'increment',
-        child: Icon(Icons.add),
+        child: const Icon(Icons.add),
       ),
       bottomNavigationBar: _isAdLoaded
           ? Container(
@@ -73,7 +73,7 @@ class _Quiz_PageState extends State<Quiz_Page> {
               width: _bannerAd.size.width.toDouble(),
               child: AdWidget(ad: _bannerAd),
             )
-          : SizedBox(),
+          : const SizedBox(),
     );
   }
 }

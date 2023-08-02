@@ -22,7 +22,7 @@ class _Splesh_ScreenState extends State<Splesh_Screen> {
       Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) =>   MainScreen(),
+            builder: (context) =>   const Login_Screen(),
           ));
    });
   }

@@ -28,28 +28,6 @@ class _SearchState extends State<Search> {
     getProductData();
     super.initState();
   }
-
-  // Future<List<SearchDataListModel>> getSearchModelData() async {
-  //   Map data = {
-  //     'keyword' : "T",
-  //     'page_size' : "10",
-  //     'page_number' : "1",
-  //     'user_id' : "3"
-  //   };
-  //   final Uri url = Uri.parse("${SchoolBaseUrlL.school_base_url}search");
-  //   var response = await http.post(url, body: data);
-  //   if(response.statusCode == 200) {
-  //     var data = json.decode(response.body);
-  //     var rest = data["data"] as List;
-  //     searchDataListModelApi = rest.map<SearchDataListModel>((e) => SearchDataListModel.fromJsonMap(e)).toList();
-  //     setState(() {
-  //       _isLoading = false;
-  //     });
-  //     print("searchDataListModelApi");
-  //     print(response.body);
-  //   }
-  //   return searchDataListModelApi;
-  // }
   Future<List<SearchDataListData>> getProductData() async {
     Map data = {
       'keyword' : widget.searchText,

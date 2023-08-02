@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 
 class Authentication extends StatelessWidget {
   FirebaseAuth _auth = FirebaseAuth.instance;
+  static const routeName = 'cart';
 
   @override
   Widget build(BuildContext context) {

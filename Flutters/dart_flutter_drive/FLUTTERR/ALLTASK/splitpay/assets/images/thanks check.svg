@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="thanks_check" data-name="thanks check" transform="translate(-181 -256)">
+    <circle id="Ellipse_300" data-name="Ellipse 300" cx="25" cy="25" r="25" transform="translate(181 256)" fill="#2bbd00"/>
+    <g id="check_1_" data-name="check (1)" transform="translate(196 203.427)">
+      <path id="Path_598" data-name="Path 598" d="M6.458,85.573a2.1,2.1,0,0,1-1.513-.652L.369,80.17a1.347,1.347,0,0,1,0-1.853h0a1.228,1.228,0,0,1,1.783,0L6.458,82.79l11.39-11.834a1.228,1.228,0,0,1,1.783,0h0a1.347,1.347,0,0,1,0,1.853L7.971,84.921A2.1,2.1,0,0,1,6.458,85.573Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
